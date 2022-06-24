@@ -1,0 +1,623 @@
+
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.item1 {
+   
+    height: 100%;
+    width: 65%;
+}
+
+.item2{
+    height: 100%;
+    width: 35%;
+}
+
+.schear{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 461px;
+    height: 56px;   
+    background-color: #FFFFFF;
+    border-radius: 35px;
+    margin-left: 20px;
+    margin-top: 46px;
+    box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+input{
+    width: 80%;
+    height: 95%;
+    border-style: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.lg{
+    width: 24px;
+    height: 24px;
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+}
+
+.ouf {
+width: 716px;
+height: 354px;
+margin-left: 20px;
+margin-top: 46px;
+background: linear-gradient(75.33deg, rgba(0, 0, 0, 0.2) -10.41%, rgba(0, 0, 0, 0) 62.93%), url("./Rectangle.png");
+border-radius: 12px;
+}
+
+.E1{
+    display: flex;
+    flex-direction: column;
+    width: 536px;
+    height: 200px;
+    margin-left: 60px;
+    padding-top: 77px;
+    padding-left: 20px;
+}
+
+.dis {
+            width: 536px;
+           height: 130px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 54px;
+        line-height: 120%;
+        /* or 65px */
+        letter-spacing: -0.02em;
+
+        color: #FFFFFF;
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+.propal {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px;
+    width: 253px;
+    height: 46px;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: white; /* Green */
+    border: none;
+    color: #5429FF;
+    border-radius: 25px;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .btn2 {
+    background-color: transparent; /* Green */
+    color: white;
+    border-radius: 25px;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    border-style:  solid;
+    border-color: #FFFFFF;
+    border-width: 1px;
+  }
+
+  .temp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 380px;
+    height: 56px;   
+    background-color: #FFFFFF;
+    border-radius: 35px;
+    margin-left: 10px;
+    margin-top: 46px;
+    box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  .wallet1 {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: 100%;
+  }
+  .wallet2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+  .crypto1{
+      width: 164px;
+      height: 167px;
+      background-color: #FFFFFF;
+      border-radius: 12px;
+      margin-left: 20px;
+      display: flex;
+      flex-direction: column;
+  }
+  .crypto2{
+    width: 164px;
+    height: 167px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+  .walletContent {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+      margin-top: 46px;
+  }
+
+  .R1{
+    position: absolute;
+    width: 58px;
+    height: 18px;
+    margin-left: 24px;
+    margin-top: 24px;
+
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    
+    /* Text/color2 */
+    color: #747475;
+  }
+  .R2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 110px;
+    height: 31px;
+    margin-left: 24px;
+    margin-top: 54px;
+    
+  }
+
+  .R2lo {
+      width: 13px;
+      height: 18px;
+  }
+
+  .ETH {
+    width: 82px;
+    height: 31px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 31px;
+    
+    /* Text/color1 */
+    color: #27262E;
+    margin-left: 5px;
+
+  }
+
+  .court {
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 22px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 115px;
+    height: 46px;
+    margin-left: 24px;
+    margin-top: 94px;
+    
+    background: #FFFFFF;
+    /* Border */
+    border: 1px solid #E9E9E9;
+    border-radius: 12px;
+  }
+
+  .courtlo {
+    width: 24px;
+    height: 24px;
+}
+
+.UP {
+
+width: 39px;
+height: 21px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+letter-spacing: -0.02em;
+
+/* Text/color2 */
+color: #747475;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.courtloD {
+    width: 21px;
+    height: 21px;
+}
+
+.Friend {
+    width: 348px;
+    height: 50%;
+    margin-left: 20px;
+    margin-top: 32px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+}
+
+.FriendT {
+    margin-top: 24px;
+    padding-left: 24px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+}
+
+.Top{
+
+width: 100%;
+height: 100%;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 31px;
+font-feature-settings: 'salt';
+text-align: left;
+
+
+
+/* Text/color1 */
+color: #27262E;
+}
+.All{
+    width: 100%;
+    height: 100%;
+    font-family: 'DM Sans';
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+    font-feature-settings: 'salt';
+
+    /* Text/color2 */
+    color: #747475;
+
+}
+
+.FriendData {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 90%;
+    margin-left: 24;
+
+}
+
+.Profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.number {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #27262E;
+}
+.PP{
+
+    width: 44px;
+    height: 44px;
+    background: url("Ellipse.png");
+    margin-left: 10px;
+}
+
+.Name {
+    display: flex;
+    flex-direction: column;
+    width: 119px;
+    height: 41px;
+}
+.Pname {
+    width: 100%;
+    height: 21px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #27262E;
+    margin-left: 10px;
+
+}
+.Sname {
+    width: 100%;
+    height: 16px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #747475;
+    line-height: 16px;
+    margin-left: 10px;
+
+}
+
+.Follow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 14px;
+    gap: 10px;
+    width: 60px;
+    margin-left: 10px;
+    background: rgba(95, 58, 241, 0.1);
+    border-radius: 20px;
+}
+
+.PFollow{
+    width: 36px;
+    height: 16px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    font-feature-settings: 'salt' on;
+    color: #5429FF;
+
+}
+
+
+.Trend {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.TrendTitre {
+    margin-top: 24px;
+    padding-left: 24px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+}
+
+.TrendTop{
+    width: 100%;
+    height: 100%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    text-align: left;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    font-feature-settings: 'salt' ;
+    color: #27262E;
+}
+
+.TrendMenu {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 380px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.Tm{
+    display: flex;
+    flex-direction: row;
+    width: 60px;
+    height: auto;
+    /* Color/primary-light */
+    border-radius: 30px;
+    align-items: center;
+    padding: 8px 14px;
+    gap: 10px;
+}
+
+.Tm:hover{
+    background-color: rgba(87, 48, 241, 0.37);
+    color: #5429FF;
+}
+
+.TmT{
+    width: 40px;
+    height: 18px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.TrendCard{
+    display: flex;
+    width: 100%;
+    margin-left: 24px;
+    flex-direction: row;
+    margin-top: 24px;
+    justify-content: space-between;
+}
+
+.TCard{
+    width: 348px;
+    height: 364px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.CardImage {
+    margin: 10px;
+    width: 324px;
+height: 196px;
+    background: url("./Rectangle9.png");
+}
+.CardImage2 {
+    margin: 10px;
+    width: 324px;
+height: 196px;
+    background: url("./Rectangle8.png");
+}
+
+.Data {
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    flex-direction: row;
+}
+
+.D1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.D1P {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.PP1{
+
+    width: 28px;
+    height: 28px;
+    background: url("Ellipse6.png");
+    margin-left: 5px;
+}
+
+.PR1 {
+    width: 92px;
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 21px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    font-feature-settings: 'salt' ;
+    /* Text/color2 */
+    color: #747475;
+}
+
+
+.D2P {
+    
+    margin-top: 10px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #747475;
+}
+
+.D2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.Like{
+    height: 90%;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+margin-left: 10px;
+/* identical to box height */
+text-align: center;
+font-feature-settings: 'salt' on;
+
+/* Text/color2 */
+color: #747475;
+}
+
+.Like1{
+    height: 20%;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+text-align: center;
+margin-left: 10px;
+font-feature-settings: 'salt' on;
+
+/* Text/color2 */
+color: #747475;
+}
