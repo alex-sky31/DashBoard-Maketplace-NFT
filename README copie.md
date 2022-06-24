@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Best dimension for this project ( 1440x 1040)
+
+Design Free on figma -> https://www.figma.com/file/Rz7gil3aEpb1i4vmNhvdjz/NFT-Dashboard-Web-3.0-(Community)?node-id=1%3A672
 
 ## Available Scripts
 
