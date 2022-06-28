@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/DashBoard-Maketplace-NFT/static/css/main.11ff78ce.css",
+    "main.js": "/DashBoard-Maketplace-NFT/static/js/main.5b35c493.js",
+    "static/js/787.26e21b1f.chunk.js": "/DashBoard-Maketplace-NFT/static/js/787.26e21b1f.chunk.js",
+    "static/media/Rectangle.png": "/DashBoard-Maketplace-NFT/static/media/Rectangle.bc389dbdfc181f7e04d0.png",
+    "static/media/Rectangle9.png": "/DashBoard-Maketplace-NFT/static/media/Rectangle9.95687ae00a9f5e659252.png",
+    "static/media/Rectangle8.png": "/DashBoard-Maketplace-NFT/static/media/Rectangle8.e7a462e1432ebe6f88d8.png",
+    "static/media/logo.svg": "/DashBoard-Maketplace-NFT/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/DashBoard-Maketplace-NFT/index.html",
+    "main.11ff78ce.css.map": "/DashBoard-Maketplace-NFT/static/css/main.11ff78ce.css.map",
+    "main.5b35c493.js.map": "/DashBoard-Maketplace-NFT/static/js/main.5b35c493.js.map",
+    "787.26e21b1f.chunk.js.map": "/DashBoard-Maketplace-NFT/static/js/787.26e21b1f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11ff78ce.css",
+    "static/js/main.5b35c493.js"
+  ]
+}
